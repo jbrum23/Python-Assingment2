@@ -1,7 +1,6 @@
 # Python-Assingment2
 
 ## Problem 1: Customer Discount Eligibility
-
 ### Description
 This program determines a customer’s discount percentage based on membership status and purchase amount using conditional logic inside reusable functions.  
 The program calculates and prints the final price after the discount is applied.
@@ -33,4 +32,22 @@ Conditional logic determines the appropriate bonus percentage, and the bonus amo
 - Performance score must be between 0 and 100.
 - Negative salaries are not expected.
 - Bonus amount is formatted with commas and two decimal places.
+
+## Problem 3: Loan Risk Classification
+### Description
+This program classifies a loan applicant’s risk level based on credit score and annual income using conditional logic.
+### Business Rules Implemented
+- Low Risk:
+  - Credit score ≥ 720 AND income ≥ 60,000
+- Medium Risk:
+  - Credit score ≥ 650 AND income ≥ 40,000
+- High Risk:
+  - All other cases
+### Functions
+- classify_risk(credit_score, income)
+- main()
+### Assumptions
+- Credit score and income must be numeric.
+- Negative values are not expected.
+- Output matches the required wording exactly.
 
