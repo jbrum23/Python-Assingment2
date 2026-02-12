@@ -15,3 +15,22 @@ The program calculates and prints the final price after the discount is applied.
 - Negative purchase amounts are not expected.
 - Final price is formatted to two decimal places.
 
+## Problem 2: Employee Performance Bonus
+### Description
+This program calculates an employee’s annual performance bonus based on their performance score.  
+Conditional logic determines the appropriate bonus percentage, and the bonus amount is calculated as a percentage of the employee’s salary.
+### Business Rules Implemented
+- 90–100 → 20% bonus
+- 80–89 → 10% bonus
+- 70–79 → 5% bonus
+- Below 70 → 0% bonus
+### Functions
+- determine_bonus_percentage(score)
+- calculate_bonus_amount(salary, bonus_percent)
+- main()
+### Assumptions
+- Salary must be numeric.
+- Performance score must be between 0 and 100.
+- Negative salaries are not expected.
+- Bonus amount is formatted with commas and two decimal places.
+
